@@ -1,0 +1,47 @@
+/*universal setting for page*/
+* {
+  padding: 0;
+  margin: 0;
+
+}
+header {
+  background: white;
+  overflow: hidden;
+  padding: 1em 0;
+  width: 100%;
+  text-align: center;
+}
+section.two_col {
+  background: grey;
+  padding: 1em;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+article.two_col {
+  width: 70%;
+  float: left;
+  padding: 1em 6em 2em 0;
+  box-sizing: border-box;
+}
+
+aside.two_col {
+  width: 30%;
+  float:right;
+  padding: 2em;
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+}
+main p {
+  text-align: center;
+}
+footer {
+  background-color:black;
+  color:white;
+  padding: 2em 2em 5em 2em;
+  text-align: center;
+  clear: both;
+}
+@media screen and (max-width: 850px)
